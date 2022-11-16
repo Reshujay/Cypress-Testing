@@ -1,0 +1,33 @@
+{
+    "URL": "http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Login.aspx",
+    "Login": [
+        {
+            "uname": "Tester1",
+            "password": "test",
+            "expected_result":"Invalid Login or Password."
+        },
+
+        {
+            "uname": "Tester",
+            "password": "test1",
+            "expected_result":"Invalid Login or Password."
+        },
+        {
+            "uname": "",
+            "password": "test",
+            "expected_result":"Invalid Login or Password."
+        },
+        {
+            "uname": "Tester",
+            "password": "",
+            "expected_result":"Invalid Login or Password."
+        },
+        {
+            "uname": "Tester",
+            "password": "test",
+            "expected_result":"Order"
+        }
+
+            ]
+
+}

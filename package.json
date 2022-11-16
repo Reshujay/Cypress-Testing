@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^14.0.0",
+    "cypress": "^11.0.0"
+  },
+  "name": "cypress-training",
+  "version": "1.0.0",
+  "description": "cypress-training",
+  "main": "index.js",
+  "devDependencies": {
+    "cypress-iframe": "^1.0.1",
+    "cypress-localstorage-commands": "^2.2.1",
+    "cypress-xpath": "^2.0.1"
+  },
+  "scripts": {
+    "test": "node_modules//.bin//cypress run",
+    "RunTest": "npm run test --",
+    "Cypress_UI_Demo": "npm run test -- --spec \"cypress/e2e/UI_Test/**/*.js\""
+  },
+  "author": "Reshmi",
+  "license": "ISC"
+}
