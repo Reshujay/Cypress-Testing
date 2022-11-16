@@ -5,7 +5,7 @@ describe('Spree Application Signup', function() {
     //Visit the Spree Website
     cy.visit("https://demo.spreecommerce.org/signup");  
    // Enter Email and Password
-    cy.get("input[placeholder='Email']").type('resh318@spree.com')
+    cy.get("input[placeholder='Email']").type('reshuj1234455@spree.com')
     cy.get("input[placeholder='Password']").type('spree1234')
     cy.get("input[placeholder='Password Confirmation']").type('spree1234')
     cy.get("input[value='Sign Up']").click()
